@@ -1,0 +1,320 @@
+*{
+
+margin:0px;
+padding:0px;
+}
+body{
+
+font-family: 'Lato', sans-serif;
+
+}
+.container{
+
+width:1140px;
+margin: 0 auto;
+
+}
+/*header part start*/
+header{
+
+width:100%;
+float:left;
+background-color:#f6f9f9;
+padding:25px 0px;
+
+}
+/*header part end*/
+/*banner section start*/
+.banner{
+width:100%;
+float:left;
+background:url(../img/banner.png);
+background-repeat:no-repeat;
+background-size:cover;
+padding:75px 0px;
+}
+.banner-main{
+width:60%;
+margin: 0 auto;
+text-align:center;
+margin-top: 75px;
+
+
+}
+.banner-main h2{
+font-size:120px;
+color:white;
+}
+
+.banner-main span{
+
+border-bottom:2px solid #15a4fa;
+width:89%;
+display: block;
+margin:30px auto;
+	
+}
+.banner-main p{
+
+color:white;
+font-size:20px;
+	
+}
+.btn{
+margin:50px 0px;
+padding:15px 22px;
+background-color:#15a4fa0d;
+border-color:#15a4fa;
+color:white;
+font-size:20px;
+
+}
+.fa.fa-angle-down{
+
+font-size:35px;
+color:white;
+margin-top:70px ;
+}
+/*banner section end*/
+/*design section start*/
+.design{
+
+	width:100%;
+	float:left;
+	background-color:#f6f9f9;
+	text-align: center;
+	padding:70px 0px;
+}
+.design h2{
+font-size:40px;
+margin-bottom:38px; 
+
+}
+.design p{
+
+font-size:20px;
+color:#bbbcbc;
+}
+/*design section end*/
+/*feature section start*/
+.feature{
+
+width:100%;
+float:left;
+
+}
+.single-feature{
+
+width:30%;
+float:left;
+margin:15px 18px;
+text-align:center;
+padding:58px 0px;
+}
+.single-feature h2{
+font-size:22px;
+margin:28px 0px;
+
+
+}
+.single-feature p{
+    font-size:15px;
+	color:#bbbcbc;
+	padding:0px 21px;
+}
+.fa.fa-mobile{
+font-size:60px;
+background-color:#5fc3ff;
+color:white;
+padding:20px 35px;
+
+}
+.fa.fa-paper-plane{
+font-size:60px;
+background-color:#5fc3ff;
+color:white;
+padding:20px 29px;
+
+}
+
+.fa.fa-bullhorn{
+
+font-size:60px;
+background-color:#5fc3ff;
+color:white;
+padding:20px 29px;
+}
+/*feature section end*/
+/*show section start*/
+.show{
+
+	width:100%;
+	float:left;
+	padding:70px 0px;
+	background-color:#f6f9f9;
+}
+.show-main{
+width:60%;
+margin:0 auto;
+text-align: center;
+padding-bottom:70px;
+}
+.show-main h3{
+font-size:43px;
+font-family:lato-light;
+
+}
+.show-main p{
+font-size:16px;
+color:#bbbcbc;
+margin:26px 0px;
+}
+.image-one{
+
+width:29%;
+float:left;
+margin:15px 24px;
+}
+/*show section end*/
+/*stay section start*/
+.stay{
+
+width:100%;
+float:left;
+background: url(../img/cont.png);
+background-repeat: no-repeat;
+background-size:cover;
+
+}
+.overlay{
+
+	background-color:#2d384cc2;
+}
+.stay-main{
+
+width:50%;
+margin:0 auto;
+padding:75px 0px;
+text-align:center;
+}
+.stay-main h2{
+
+font-size:41px ;
+color:white;
+
+}
+.stay-main p{
+font-size:15px;
+color:#bbbcbc;
+margin:26px 0px;
+}
+.form-control{
+height:40px;
+width:75%;
+margin:7px 0px;
+padding: 7px 12px;
+background-color:#23313e26;
+border-color:#73818ec9;
+color:#bbbcbc;
+}
+.text{
+
+height:151px;
+width:75%;
+margin: 7px 0px;
+padding:7px 12px;	
+background-color:#1d34482e;	
+border-color:#5772a2ba;
+color:#bbbcbc;
+}
+.footer-form{
+width:100%;
+float:left;
+
+}
+.footer-left{
+width:48%;
+float:left;
+margin:15px 0px;
+color:white;
+
+}
+.footer-btn{
+width:50%;
+float:left;
+
+}
+.f-button{
+
+padding:15px 71px;
+color :white;
+background-color:#171a2d4a;
+border-color:#15a4fa; 
+
+}
+/*stay section end*/
+/*footer part start*/
+footer{
+width:100%;
+float:left;
+padding:25px 0px;
+
+}
+.right{
+width:45%;
+float:left;
+margin:15px 17px;
+
+}
+.right p{
+font-size:15px;
+color:#bbbcbc;
+
+}
+.icons{
+width:50%;
+float:left;
+text-align: right;
+}
+.icons ul{
+list-style: none;
+
+}
+.icons ul li{
+display: inline-block;
+margin:0px 5px;
+
+
+}
+.fa.fa-facebook{
+
+font-size:25px;
+background-color:#15a4fa;
+color:white;
+padding:10px 15px;
+
+}
+.fa.fa-twitter{
+font-size:25px;
+background-color:#15a4fa;
+color:white;
+padding:10px 15px;
+
+}
+.fa.fa-glide-g{
+font-size:25px;
+background-color:#15a4fa;
+color:white;
+padding:10px 15px;
+
+}
+.fa.fa-linkedin{
+font-size:25px;
+background-color:#15a4fa;
+color:white;
+padding:10px 15px;
+
+}
+/*footer part end*/
+
+
